@@ -7,6 +7,7 @@ $b = 1;
 for ($i = 1; $i <= $limit; $i++) {
     
     $fibonacci = $a + $b;
+    echo $fibonacci . " ";
 
     if ($fibonacci > 100) {
         break;
@@ -14,6 +15,5 @@ for ($i = 1; $i <= $limit; $i++) {
 
     $a = $b;
     $b = $fibonacci;
-    echo $fibonacci . " ";
 }
 ?>
